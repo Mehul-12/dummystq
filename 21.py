@@ -26,7 +26,7 @@ class Stq:
     dictionary[path2] = dict()
     dictionary[path3] = dict()
     dictionary[path4] = dict()
-         = db["pull_request_file"]
+    pull_request_files = db["pull_request_file"]
     pull_request_data = db["pull_request"]
     pull_request_review = db["pull_request_review"]
     
