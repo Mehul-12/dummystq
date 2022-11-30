@@ -10,8 +10,6 @@ def q_20():
     path4 = "DFPrFD"
     client = MongoClient("mongodb://localhost:27017/")
     db = client["smartshark"]
-    project_id = db["project"].find({"name": "kafka"})
-    pid = project_id[0]['_id']
     dictionary = dict()
     file_to_dev = dict()
     pr_to_dev = dict()
