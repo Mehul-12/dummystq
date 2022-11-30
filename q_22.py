@@ -10,7 +10,7 @@ def q_22():
     path2 = "DPrPrR"
     path3 = "DPrPrD"
     path4 = "DFPrFD"
-    project_id = db["project"].find({"name": "kafka"})
+    project_id = db["project"]
     pid = project_id[0]['_id']
     dictionary = dict()
     file_to_dev = dict()
